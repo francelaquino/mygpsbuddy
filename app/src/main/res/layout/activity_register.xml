@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".RegisterActivity"
+android:paddingLeft="15dp"
+android:paddingRight="15dp"
+android:orientation="vertical"
+android:theme="@style/Theme.AppCompat.NoActionBar"
+android:background="@color/colorWhite"
+android:gravity="center">
+
+<de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/btnimage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_man_user"
+            app:civ_border_width="2dp"
+            android:layout_marginBottom="30dp"
+            app:civ_border_color="#bdc3c7"/>
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGray"
+        android:text="@string/first_name"/>
+<EditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittext"
+        android:textColorHint="@color/colorBlack"
+        android:layout_marginBottom="@dimen/edittext_margin_bottom"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="@dimen/edittext_height"/>
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGray"
+        android:text="@string/last_name"/>
+<EditText
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittext"
+        android:layout_height="@dimen/edittext_height"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorBlack"
+        android:layout_marginBottom="@dimen/edittext_margin_bottom" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGray"
+        android:text="@string/email"/>
+<EditText
+        android:id="@+id/emailaddress"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittext"
+        android:layout_height="@dimen/edittext_height"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorBlack"
+        android:layout_marginBottom="@dimen/edittext_margin_bottom"  />
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGray"
+        android:text="@string/password"/>
+
+<EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittext"
+        android:textColorHint="@color/colorBlack"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="@dimen/edittext_margin_bottom"
+        android:layout_height="@dimen/edittext_height" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGray"
+        android:text="@string/retypepassword"/>
+
+<EditText
+        android:id="@+id/retypepassword"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittext"
+        android:textColorHint="@color/colorBlack"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_marginBottom="@dimen/edittext_margin_bottom" />
+
+<Button android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnregister"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/registerbutton"
+        android:text="@string/register"/>
+
+</LinearLayout>
