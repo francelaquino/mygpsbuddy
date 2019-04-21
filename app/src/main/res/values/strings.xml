@@ -14,4 +14,6 @@
     <string name="password">Password</string>
     <string name="retypepassword">Retype password</string>
     <string name="register">Register</string>
+    <string name="submit">Submit</string>
+    <string name="login">Login</string>
 </resources>
